@@ -1,0 +1,158 @@
+/* How to use font families:
+font-family: 'League Spartan', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Sacramento', cursive; */
+/* GLobal properties */
+body {
+  font-family: "League Spartan";
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 7% 15% 13%;
+}
+
+.gradient-background {
+  background-image: linear-gradient(to top right, #62D2A2, #9DF3C4);
+}
+
+/* Use this for practice dumb dumb.promo {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 87%, 0 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 87%, 0 100%);
+} */
+
+/* Navbar */
+#nav-id {}
+
+.navbar {
+  background: #1FAB89;
+}
+
+#nav-id .container-fluid {
+  padding: 0 15%;
+}
+
+.navbar-brand {
+  font-family: "Sacramento";
+  font-size: 2.0rem;
+  text-transform: capitalize;
+}
+
+.nav-item {
+  padding: 0 0.6rem;
+}
+
+.nav-link {
+  font-size: 1.0rem;
+}
+
+/* Home section */
+#home {
+  color: white;
+}
+
+.home-text {
+  margin: 2.5rem 0 2rem;
+  text-align: left;
+}
+
+.home-title {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-family: "Poppins";
+  font-weight: bold;
+}
+
+.home-description {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  margin-top: 1.5rem
+}
+
+.btn {
+
+  margin-top: 1.5rem;
+  text-align:center;
+  will-change: transform;
+  border-radius: 20%;
+  width: 2.5rem;
+  height: 2.5rem;
+
+}
+
+.resume-btn .btn{
+  width: 12rem;
+  background-color: white;
+  border-radius: 5px;
+  font-weight: bold;
+
+}
+
+.btn:not(:last-child){
+  margin-right: 0.5rem;
+}
+.btn:hover {
+  animation-name: moveUp;
+  animation-duration: 0.4s;
+  margin-top: 1.1rem;
+  margin-bottom: 0.4rem;
+}
+
+.btn:not(:hover){
+  animation-name: moveDown;
+  animation-duration: 0.4s;
+  margin-top: 1.5rem;
+  margin-bottom: 0rem;
+}
+
+@keyframes moveUp {
+  from {
+    margin-top: 1.5rem;
+    margin-bottom: 0rem;
+  }
+
+  to {
+    margin-top: 1.1rem;
+    margin-bottom: 0.4rem;
+  }
+}
+
+@keyframes moveDown {
+  from {
+    margin-top: 1.1rem;
+    margin-bottom: 0.4rem;
+  }
+
+  to {
+    margin-top: 1.5rem;
+    margin-bottom: 0rem;
+  }
+}
+
+.github-button {
+  background-color: white;
+}
+
+.linkin-button{
+  background-color: white;
+}
+
+.fa-brands{
+  position: absolute;
+}
+
+.fa-linkedin{
+  color: #1da1f2;
+  right: 0.3rem;
+  bottom: 1.1rem;
+}
+
+.fa-github{
+  right: 0.21rem;
+  bottom: 1.1rem;
+}
+
+
+
+
+.home-gif {}
