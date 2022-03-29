@@ -2,6 +2,12 @@
 font-family: 'League Spartan', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Sacramento', cursive; */
+/* Pallet
+ #62D2A2
+ #9DF3C4
+ #1FAB89
+ #1da1f2
+ */
 /* GLobal properties */
 body {
   font-family: "League Spartan";
@@ -28,12 +34,6 @@ h1,h3,h4,h5,h6{
 }
 
 /* Navbar */
-#nav-id {}
-
-.navbar {
-  background: #1FAB89;
-}
-
 #nav-id .container-fluid {
   padding: 0 15%;
 }
@@ -52,6 +52,18 @@ h1,h3,h4,h5,h6{
   font-size: 1.0rem;
 }
 
+/* For navbar scrolling effect */
+
+.nav-scroll-down{
+  transform: translateY(-100%);
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-scroll-up{
+  transform: translateY(0);
+  background-color: #1FAB89;
+  transition: all 0.3s ease-in-out;
+}
 /* Home section */
 #home {
   color: white;
