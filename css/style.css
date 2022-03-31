@@ -39,18 +39,22 @@ section > h1{
 
 /* Fade in on scroll effect */
 
-.fade-bottom{
-  opacity: 0.1;
-  transition: opacity 1s ease-in-out;
+.load{
+  opacity: 1;
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
   will-change: opacity,transform;
 }
 
-.fade-left{
-
+.load.col-sm-6:not(:last-child), h1.load{
+  transform: translateX(2rem);
 }
 
-.fade-right{
+.load.col-sm-6:last-child{
+  transform: translateX(-2rem);
+}
 
+.load.row {
+  transform: translateY(2rem);
 }
 
 .loaded{
