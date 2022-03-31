@@ -37,6 +37,27 @@ section > h1{
           clip-path: polygon(0 0, 100% 0, 100% 87%, 0 100%);
 }
 
+/* Fade in on scroll effect */
+
+.fade-bottom{
+  opacity: 0.1;
+  transition: opacity 1s ease-in-out;
+  will-change: opacity,transform;
+}
+
+.fade-left{
+
+}
+
+.fade-right{
+
+}
+
+.loaded{
+  opacity: 1;
+  transform: none;
+}
+
 /* Navbar */
 #nav-id .container-fluid {
   padding: 0 15%;
@@ -100,6 +121,8 @@ section > h1{
   height: 2.5rem;
 
 }
+
+/* Button animations */
 
 .resume-btn .btn{
   width: 12rem;
