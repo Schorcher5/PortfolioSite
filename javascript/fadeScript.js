@@ -1,6 +1,6 @@
 
 // Generates nodelist of all tags with the .load class
-const loading = document.quereySelectorAll(".load");
+const loading = document.querySelectorAll(".load");
 
 // Establishes the options for the IntersectionObserver api
 const options = {
@@ -13,7 +13,6 @@ const options = {
 const observer = new IntersectionObserver(function(entries,observer){
   entries.forEach(entry => {
     if(entry.isIntersecting){
-      entry.target.classList.toggle("load");
       entry.target.classList.toggle("loaded");
       observer.unobserve(entry.target);
     }
