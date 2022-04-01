@@ -45,12 +45,12 @@ section > h1{
   will-change: opacity,transform;
 }
 
-.load.col-sm-6:not(:last-child), h1.load{
-  transform: translateX(2rem);
+.load-left, h1.load{
+  transform: translateX(-2rem);
 }
 
-.load.col-sm-6:last-child{
-  transform: translateX(-2rem);
+.load-right{
+  transform: translateX(2rem);
 }
 
 .load.row {
