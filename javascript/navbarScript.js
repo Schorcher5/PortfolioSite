@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded",function(){
       if(scrollTop < lastScrollTop){
         hideOnScroll.classList.remove('nav-scroll-down');
         hideOnScroll.classList.add('nav-scroll-up');
-      }else{
+      }else if(scrollTop >= lastScrollTop){
         hideOnScroll.classList.remove('nav-scroll-up');
         hideOnScroll.classList.add('nav-scroll-down');
       }lastScrollTop = scrollTop;
