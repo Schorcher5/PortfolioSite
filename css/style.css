@@ -185,8 +185,14 @@ section > h1{
   background-color: white;
 }
 
-.fa-brands{
+.fa-brands, .fa-duotone{
   position: absolute;
+}
+
+.fa-file{
+  position: relative;
+  right: 0.21rem;
+
 }
 
 .fa-linkedin{
