@@ -24,6 +24,12 @@ section > h1{
   padding-top: 3rem;
 }
 
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .container-fluid {
   padding: 7% 15% 13%;
 }
@@ -207,6 +213,8 @@ section > h1{
 }
 
 
+/* Skills section */
 
+/* These are a class to turn imges into icons for the skills section */
 
-.home-gif {}
+/* These are the colors for each fa symbol */
