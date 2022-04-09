@@ -215,6 +215,11 @@ section > h1{
 
 /* Skills section */
 
-/* These are a class to turn imges into icons for the skills section */
+/* These are a class to set align imges in skill with the other fa-icons */
+.skill-icon{
+  position: absolute;
+  top: 0;
+  margin-bottom: 1rem;
 
+}
 /* These are the colors for each fa symbol */
