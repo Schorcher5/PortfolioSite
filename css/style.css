@@ -9,6 +9,14 @@ font-family: 'Sacramento', cursive; */
  #1da1f2
  */
 /* GLobal properties */
+
+:root{
+  --resting-high-button: 1rem;
+  --resting-low-button:0;
+  --hover-high-button: 0.6rem;
+  --hover-low-button: 0.4rem;
+}
+
 body {
   font-family: "League Spartan";
   text-align: center;
@@ -128,7 +136,7 @@ section > h1{
 
 .special-btn{
 
-  margin-top: 1.5rem;
+  margin-top: var(--resting-high-button);
   text-align:center;
   will-change: transform;
   border-radius: 20%;
@@ -153,38 +161,38 @@ section > h1{
 .btn:hover {
   animation-name: moveUp;
   animation-duration: 0.4s;
-  margin-top: 1.1rem;
-  margin-bottom: 0.4rem;
+  margin-top: var(--hover-high-button);
+  margin-bottom: var(--hover-low-button);
 }
 
 .btn:not(:hover){
   animation-name: moveDown;
   animation-duration: 0.4s;
-  margin-top: 1.5rem;
-  margin-bottom: 0rem;
+  margin-top: var(--resting-high-button);
+  margin-bottom: var(--resting-low-button);
 }
 
 @keyframes moveUp {
   from {
-    margin-top: 1.5rem;
-    margin-bottom: 0rem;
+    margin-top: var(--resting-high-button);
+    margin-bottom: var(--resting-low-button);
   }
 
   to {
-    margin-top: 1.1rem;
-    margin-bottom: 0.4rem;
+    margin-top: var(--hover-high-button);
+    margin-bottom: var(--hover-low-button);
   }
 }
 
 @keyframes moveDown {
   from {
-    margin-top: 1.1rem;
-    margin-bottom: 0.4rem;
+    margin-top: var(--hover-high-button);
+    margin-bottom: var(--hover-low-button);
   }
 
   to {
-    margin-top: 1.5rem;
-    margin-bottom: 0rem;
+    margin-top: var(--resting-high-button);
+    margin-bottom: var(--resting-low-button);
   }
 }
 
