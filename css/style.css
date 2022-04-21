@@ -127,7 +127,7 @@ p {
 .special-btn{
 
   margin-top: var(--resting-high-button);
-  text-align:center;
+  text-align:left;
   will-change: transform;
   border-radius: 20%;
   width: 2.5rem;
@@ -186,15 +186,12 @@ p {
   }
 }
 
-.github-button {
+.icon-button {
   background-color: white;
 }
 
-.linkin-button{
-  background-color: white;
-}
 
-.fa-brands, .fa-duotone{
+.fa-brands, .fa-duotone, .fa-solid{
   position: absolute;
 }
 
@@ -215,8 +212,18 @@ p {
   bottom: 1.1rem;
 }
 
+.fa-code{
+  color: #003E54;
+  right: 0.25rem;
+  bottom: 1.1rem;
+}
+
 /* Card selectors */
 
 .card-text{
   text-align: left;
+}
+
+.card-title{
+  color: #1FAB89;
 }
