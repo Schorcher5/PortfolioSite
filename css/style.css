@@ -214,3 +214,9 @@ p {
   right: 0.21rem;
   bottom: 1.1rem;
 }
+
+/* Card selectors */
+
+.card-text{
+  text-align: left;
+}
