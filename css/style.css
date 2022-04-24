@@ -218,3 +218,8 @@ p {
 .card-title {
   color: #1FAB89;
 }
+
+.card-header {
+  color: white;
+  font-size: 1.7rem;
+}
