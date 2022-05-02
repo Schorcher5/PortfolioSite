@@ -59,6 +59,17 @@ p {
   clip-path: polygon(0 0, 100% 0, 100% 87%, 0 100%);
 }
 
+/* Modifying color angles for smaller screens */
+
+@media only screen and (max-width: 1000px){
+  .promo {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+  }
+}
+
+
+
 /* Fade in on scroll effect */
 .load {
   opacity: 0;
